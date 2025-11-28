@@ -2,7 +2,7 @@
 const prompt=require("prompt-sync")({sigint:true})
 
 let choices = ["rock", "paper", "scissors"];
-let usercChoice = prompt("Pick rock, paper or scissors ");
+let usercChoice = prompt("Pick rock, paper or scissors: ");
 let randomNum = Math.floor(Math.random() * choices.length)
 let comptChoice = choices[randomNum]
 
