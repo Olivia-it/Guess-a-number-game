@@ -18,8 +18,6 @@ if (parsedInp === computerInp){
         console.log("You read the computer's mind!")
     } else if (parsedInp > 10){
         console.log('Number must be between 1 and 10')
-    } else if (typeof use === 'string'){
-        console.log('string detected!')
     } else if (parsedInp < 0){
         console.log('Number must be positive') 
     } else {
