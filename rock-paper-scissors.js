@@ -18,6 +18,4 @@ console.log("You win")}
 else { console.log("Computer wins!")}
 }
 
-// console.log(game(usercChoice, comptChoice))
-
-game();
+game(usercChoice, comptChoice)
