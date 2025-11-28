@@ -1,14 +1,15 @@
-const numForm = document.querySelector('#numForm')
-const numResult = document.querySelector('#result')
+// const numForm = document.querySelector('#numForm')
+// const numResult = document.querySelector('#result')
 
-numForm.addEventListener('submit', guessNumber(e))
-    e.preventDefault();
-    const userValue = Number(document.querySelector('#userNum').value)
-    const message = guessNumber(userValue);
-    numResult.textContent = message
+// numForm.addEventListener('submit', guessNumber(e))
+//     e.preventDefault();
+//     const userValue = Number(document.querySelector('#userNum').value)
+//     const message = guessNumber(userValue);
+//     numResult.textContent = message
 
-
-
+const text = document.querySelector("#output-text")
+const input = document.querySelector("number-input")
+console.log("Hi")
 function guessNumber(num){
     if (num === 7){
         return 'Correct Number!'
