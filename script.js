@@ -1,6 +1,7 @@
 // const numForm = document.querySelector('#numForm')
 // const numResult = document.querySelector('#result')
 
+
 // numForm.addEventListener('submit', guessNumber(e))
 //     e.preventDefault();
 //     const userValue = Number(document.querySelector('#userNum').value)
@@ -18,7 +19,7 @@ if (parsedInp === 7){
     } else if (typeof parsedInp == 'string'){
         console.log('string detected!')
     } else if (parsedInp < 0){
-        console.log('Number must be positive')
+        console.log('Number must be positive') 
     } else {
         console.log('Try again!')
     }
