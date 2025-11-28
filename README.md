@@ -11,7 +11,7 @@ git clone git@github.com:Olivia-it/Guess-a-number-game.git
 
 2. Navigate to directory 
 ```
-cd Directory Placeholder
+cd Guess-a-number-game
 ```
 
 3. Install node packages
