@@ -11,8 +11,9 @@ function game(usercChoice, comptChoice){
     console.log(`Computer chose ${comptChoice}`)
     if(usercChoice === comptChoice){
         console.log("It's a tie!")
-    }
-    else if((usercChoice === "rock" && comptChoice === "scissors") || (usercChoice === "paper" && comptChoice === "rock") || (usercChoice === "scissors" && comptChoice === "paper")
+    }else if(usercChoice !== "rock" && usercChoice !== "paper" && usercChoice !== "scissors"){
+        console.log("You need to pick rock, paper or scissors")
+    }else if((usercChoice === "rock" && comptChoice === "scissors") || (usercChoice === "paper" && comptChoice === "rock") || (usercChoice === "scissors" && comptChoice === "paper")
     ){
 console.log("You win")}
 else { console.log("Computer wins!")}
