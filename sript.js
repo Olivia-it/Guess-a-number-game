@@ -1,11 +1,13 @@
 const numForm = document.querySelector('#numForm')
 const numResult = document.querySelector('#result')
 
-numForm.addEventListener('submit', guessNumber(e){
+numForm.addEventListener('submit', guessNumber(e))
     e.preventDefault();
-    const
+    const userValue = Number(document.querySelector('#userNum').value)
+    const message = guessNumber(userValue);
+    numResult.textContent = message
 
-})
+
 
 function guessNumber(num){
     if (num === 7){
